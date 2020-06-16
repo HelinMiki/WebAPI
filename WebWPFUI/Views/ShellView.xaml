@@ -6,7 +6,19 @@
         xmlns:local="clr-namespace:WebWPFUI.Views"
         mc:Ignorable="d"
         Title="ShellView" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+    <DockPanel>
+        <Menu DockPanel.Dock="Top" FontSize="18">
+            <MenuItem Header="_Tiedosto">
+                
+            </MenuItem>
+            <MenuItem Header="Tili">
+                <MenuItem x:Name="Kirjautumisruutu" Header="_Kirjaudu sisään">
+                    
+                </MenuItem>
+            </MenuItem>
+        </Menu>
+        <Grid>
+            <ContentControl x:Name="ActiveItem" Margin="5" />
+        </Grid>
+    </DockPanel>
 </Window>

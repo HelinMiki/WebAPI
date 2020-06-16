@@ -6,6 +6,8 @@ using System.Runtime.Remoting.Channels;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Controls;
+using WebWPFUI.Helpers;
 using WebWPFUI.ViewModels;
 
 namespace WebWPFUI
@@ -18,6 +20,11 @@ namespace WebWPFUI
         public Bootstrapper()
         {
             Initialize();
+
+            ConventionManager.AddElementConvention<PasswordBox>(
+                PasswordBoxHelper.BoundPasswordProperty,
+                "Password",
+                "PasswordChanged");
         }
 
         protected override void Configure()
@@ -30,7 +37,7 @@ namespace WebWPFUI
 
             //Haetaan kaikki tyypit nykyiselle instanssille (Assembly).
             //Rajoitetaan haku luokkiin ja haetaan luokista nimet, jotka loppuvat ViewModeliin. 
-            //Lista käydään läpi ja _container rekisteröi pyyntöjen tyypin ja nimen.
+            //Lista käydään läpi ja _container rekisteröi luokkien tyypit ja nimet joka kerta, kun niitä pyydetään.
             GetType().Assembly.GetTypes()
                 .Where(type => type.IsClass)
                 .Where(type => type.Name.EndsWith("ViewModel"))
