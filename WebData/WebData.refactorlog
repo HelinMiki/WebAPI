@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="6c387516-50fe-431f-af5b-244e3eae39d9" ChangeDateTime="06/16/2020 15:56:54">
+    <Property Name="ElementName" Value="[dbo].[Myyntituote].[TuoteNimi]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Myyntituote]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Tuotenimi" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="65089b4b-d606-43e0-98c5-e6e1ee57bcab" ChangeDateTime="06/16/2020 16:00:21">
+    <Property Name="ElementName" Value="[dbo].[Myyntituote].[Muokkauspvm]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Myyntituote]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ViimeksiMuokattu" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b1d76844-3332-49a6-a965-c0f47c636651" ChangeDateTime="06/16/2020 16:03:16">
+    <Property Name="ElementName" Value="[dbo].[Tavaraluettelo].[Ostopvm]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Tavaraluettelo]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Ostopäivä" />
+  </Operation>
+</Operations>
