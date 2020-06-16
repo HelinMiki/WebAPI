@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{8820E774-875D-4F82-9CC3-0876A98AECBA}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "WebData", "WebData\WebData.sqlproj", "{0067EC5F-EEE0-4DEC-858D-B05E816ACD63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebWPFUI", "WebWPFUI\WebWPFUI.csproj", "{CFD49807-1F88-4A81-86A5-6616EC4AB0B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,16 @@ Global
 		{8820E774-875D-4F82-9CC3-0876A98AECBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8820E774-875D-4F82-9CC3-0876A98AECBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8820E774-875D-4F82-9CC3-0876A98AECBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0067EC5F-EEE0-4DEC-858D-B05E816ACD63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0067EC5F-EEE0-4DEC-858D-B05E816ACD63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0067EC5F-EEE0-4DEC-858D-B05E816ACD63}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0067EC5F-EEE0-4DEC-858D-B05E816ACD63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0067EC5F-EEE0-4DEC-858D-B05E816ACD63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0067EC5F-EEE0-4DEC-858D-B05E816ACD63}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{CFD49807-1F88-4A81-86A5-6616EC4AB0B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFD49807-1F88-4A81-86A5-6616EC4AB0B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFD49807-1F88-4A81-86A5-6616EC4AB0B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFD49807-1F88-4A81-86A5-6616EC4AB0B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
